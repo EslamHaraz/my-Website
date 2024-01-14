@@ -1,6 +1,6 @@
 <template>
     <div class="parent">
-        <router-Link :to="{name:''}">
+        <router-Link :to="{name:'ContactUsView'}">
             <div class="d-flex align-items-center justify-content-evenly icons-parent mb-4">
 
                 <div class="box-icon p-3 ">
