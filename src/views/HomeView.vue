@@ -18,14 +18,14 @@
         <AboutComponent></AboutComponent>
         <ProjetctsComponent></ProjetctsComponent>
         <ExpirenceComponent></ExpirenceComponent>
-        <router-link :to="{}"
+        <router-link :to="{name:'ContactUsView'}"
           class="special-section col-xl-10  col-lg-12 p-5 border-radius-20 bg-main text-initial  position-relative">
           <div class="content mt-2">
             <h2 class="text-color">{{ $t('message.letIs') }}</h2>
             <h2 class="text-color">{{ $t('message.work') }} <span class="special-color">{{ $t('message.togther') }}</span>
             </h2>
           </div>
-          <routerLink :to="{}">
+          <routerLink :to="{name:'ContactUsView'}">
             <img src="@/assets/icon.svg" class="icon position-absolute " :class="{ 'left-arrow ': this.$store.state.language == 'ar' }">
             <img src="@/assets/Transform.png" class="transform position-absolute " >
           </routerLink>
