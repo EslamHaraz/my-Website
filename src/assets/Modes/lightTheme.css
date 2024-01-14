@@ -1,0 +1,11 @@
+html[data-theme-mode="light"] {
+  --body-color: white;
+  --main-color: #d3d3d3;
+  --secodary-color: #bbbbbb54;
+  --title-color: #000000;
+  --text-color: #494747;
+  --special-color: #5b78f6;
+  --form-bg: #efefef;
+  --input-bg: #f7f7f7;
+  border-color: #dfdfdf;
+}
