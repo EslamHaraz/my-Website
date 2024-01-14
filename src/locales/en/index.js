@@ -56,5 +56,6 @@ export default {
     subject: "Subject",
     message: "Your Message",
     mailUs: "MAIL US",
+       socialInfo: "SOCIAL INFO",
   },
 };
