@@ -144,4 +144,12 @@ nav {
     left: inherit;
     right: 4px;
 }
+    @media(max-width:768px){
+    button.contact-btn,.head-text{
+        display: none;
+    }
+    nav {
+        margin: auto;
+    }
+}
 </style>
