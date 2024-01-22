@@ -57,5 +57,8 @@ export default {
     message: "Your Message",
     mailUs: "MAIL US",
        socialInfo: "SOCIAL INFO",
+    expirenceDescription:
+      "Over the past three years, I have been working on static projects using HTML and CSS. I have also learned Vue.js and utilized it to create multilingual websites with CRUD functionalities. Additionally, I have gained some experience in browsers and understanding server operations.    ",
+    
   },
 };
