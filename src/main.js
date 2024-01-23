@@ -13,6 +13,10 @@ import arabic from "@/locales/ar/index";
 import english from "@/locales/en/index";
 import VueI18n from "vue-i18n";
 import "./main.css";
+let language = localStorage.getItem("lang");
+if (!language) {
+  localStorage.setItem("lang", "en");
+}
 Vue.use(VueI18n);
 const messages = {
   en: english,
@@ -32,7 +36,3 @@ new Vue({
   i18n,
   render: (h) => h(App),
 }).$mount("#app");
-let language = localStorage.getItem('lang')
-if(!language){
-  localStorage.setItem('lang','en')
-}
